@@ -1,0 +1,116 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    margin-top: 6px;
+    padding: 0;
+    background-color: #69cf77;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+#chat-container {
+    width: 80%;
+    max-width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(192, 245, 197, 0.7); 
+
+}
+
+#chat-messages {
+    height: 500px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.message-left,
+.message-right {
+    background-color: #fcf8f8;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 17px 0;
+    max-width: 80%;
+    word-wrap: break-word;
+    clear: both;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.message-left {
+    float: left;
+}
+
+.message-right {
+    float: right;
+}
+
+.send-container{
+    width: 100%;
+}
+
+#chat-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between input and button */
+    background-color: #f5f5f5;
+    padding: 10px;
+    width: 97%;
+}
+
+#messageInput {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    width: 75%; /* Adjusted width to 80% */
+}
+
+#sendBtn {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 0; /* Adjusted padding */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    outline: none;
+    width: 19%; /* Adjusted width to 20% */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    margin-left: 10px; /* Add margin between input and button */
+}
+
+#sendBtn:hover {
+    background-color: #0056b3;
+}
+
+.sent-message {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.received-message {
+    text-align: left;
+    margin-bottom: 10px;
+}
