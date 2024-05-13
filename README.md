@@ -41,7 +41,7 @@ Socket.IO: Real-time bidirectional event-based communication library
 Contributing
 Contributions are welcome! Please feel free to submit issues or pull requests.
 
+## License
 
-```markdown
-## Screenshots
-![Screenshot 1](Demo.png)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
