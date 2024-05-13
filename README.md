@@ -1,4 +1,4 @@
-### WhatsChat - Real-time Chat Application
+# WhatsChat - Real-time Chat Application
 
 WhatsChat is a real-time chat application built using Node.js, Express.js, and Socket.IO. It allows users to join chat room, send messages, and receive instant updates when other users join or leave the chat.
 
