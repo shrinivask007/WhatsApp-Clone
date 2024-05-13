@@ -39,6 +39,10 @@ Open your web browser and go to http://localhost:5000 to access the chat applica
 ## Contributing
 Contributions are welcome! Please feel free to submit issues or pull requests.
 
+## Code of Conduct
+
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing to this project.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
