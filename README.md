@@ -11,8 +11,6 @@ WhatsChat is a real-time chat application built using Node.js, Express.js, and S
 ## Screenshots
 
 ![Screenshot 1](Demo.png)
-* Screenshot 1*
-
 
 ## Setup Instructions
 
@@ -36,9 +34,9 @@ node server.js
 ```
 Open your web browser and go to http://localhost:5000 to access the chat application.
 ## Dependencies
-Express.js: Web framework for Node.js
-Socket.IO: Real-time bidirectional event-based communication library
-Contributing
+1. Express.js: Web framework for Node.js
+2. Socket.IO: Real-time bidirectional event-based communication library
+## Contributing
 Contributions are welcome! Please feel free to submit issues or pull requests.
 
 ## License
